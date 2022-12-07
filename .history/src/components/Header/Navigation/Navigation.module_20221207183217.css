@@ -1,0 +1,13 @@
+.navigation {
+  width: 100%;
+
+  padding: 1rem 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navigation a:not(:last-child) {
+  margin-right: 1rem;
+}

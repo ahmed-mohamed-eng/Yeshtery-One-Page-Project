@@ -1,5 +1,4 @@
 import Categories from "./Categories";
-import Navigation from "./Navigation";
 import OffersAndInfo from "./OffersAndInfo";
 import SearchAndActions from "./SearchAndActions";
 
