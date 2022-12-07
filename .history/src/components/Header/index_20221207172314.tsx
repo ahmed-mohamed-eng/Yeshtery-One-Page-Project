@@ -1,8 +1,8 @@
-import Categories from "./Categories";
 import OffersAndInfo from "./OffersAndInfo";
 import SearchAndActions from "./SearchAndActions";
 
 import styles from "./Header.module.css";
+import Categories from "./Categories";
 
 const Header = () => {
   return (
