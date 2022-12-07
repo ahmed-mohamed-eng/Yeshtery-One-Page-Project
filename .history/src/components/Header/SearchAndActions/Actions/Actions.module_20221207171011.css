@@ -1,0 +1,11 @@
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.single_action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

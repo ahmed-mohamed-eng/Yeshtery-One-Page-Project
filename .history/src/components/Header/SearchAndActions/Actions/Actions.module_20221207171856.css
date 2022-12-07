@@ -1,0 +1,36 @@
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.single_action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.single_action:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.single_action > span {
+  position: relative;
+}
+
+.single_action .floating_counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 1rem;
+  height: 1rem;
+
+  border-radius: 1rem;
+
+  background-color: #fff200;
+}
+
+.single_action img {
+  margin-right: 0.7rem;
+}

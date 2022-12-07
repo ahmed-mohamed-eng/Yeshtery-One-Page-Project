@@ -1,0 +1,19 @@
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.single_action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.single_action:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.single_action img {
+  margin-right: 0.8rem;
+}

@@ -1,7 +1,7 @@
 import OffersAndInfo from "./OffersAndInfo";
-import SearchAndActions from "./SearchAndActions";
 
 import styles from "./Header.module.css";
+import SearchAndActions from "./SearchAndActions";
 
 const Header = () => {
   return (
