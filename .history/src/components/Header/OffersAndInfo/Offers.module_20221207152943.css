@@ -1,0 +1,8 @@
+.offers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers *:not(:last-child) {
+  margin-right: 1.5rem;
+}

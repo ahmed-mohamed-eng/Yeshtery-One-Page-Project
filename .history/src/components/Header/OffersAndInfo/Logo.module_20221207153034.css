@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img:first-child {
+  margin-right: 1rem;
+}
+
+.logo img {
+  width: 1rem;
+  height: 1rem;
+}

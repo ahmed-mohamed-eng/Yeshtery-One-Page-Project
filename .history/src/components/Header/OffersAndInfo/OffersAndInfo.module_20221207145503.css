@@ -1,0 +1,8 @@
+.offers_and_info {
+  padding: 1rem 12rem;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}

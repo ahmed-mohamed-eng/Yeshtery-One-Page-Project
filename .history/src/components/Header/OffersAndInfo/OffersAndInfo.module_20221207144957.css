@@ -1,0 +1,6 @@
+.offers_and_info {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}

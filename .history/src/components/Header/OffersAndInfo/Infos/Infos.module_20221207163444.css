@@ -1,0 +1,15 @@
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infos .single_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infos .single_info img:first-child{
+  margin-right: 1rem;
+}

@@ -1,0 +1,13 @@
+.offers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.offers *:not(:last-child) {
+  margin-right: 1.5rem;
+}

@@ -1,0 +1,4 @@
+.offers_and_info {
+  display: flex;
+  justify-content: space-between;
+}

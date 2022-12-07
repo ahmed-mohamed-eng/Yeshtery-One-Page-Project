@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img:first-child {
+  margin-right: 1rem;
+
+  width: 2rem;
+  height: 2rem;
+}
+
+.logo img:last-child {
+  width: 7rem;
+  height: 7rem;
+}
