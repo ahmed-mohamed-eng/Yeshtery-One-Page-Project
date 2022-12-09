@@ -1,0 +1,12 @@
+.company_description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  border-right: 1px solid rgb(155, 155, 155);
+}
+
+.company_description > *:not(:last-child) {
+  margin-bottom: 1.5rem;
+}

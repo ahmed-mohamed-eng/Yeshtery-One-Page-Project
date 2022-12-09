@@ -1,0 +1,12 @@
+import styles from "./AboutCompany.module.css";
+
+const AboutCompany = () => {
+  return (
+    <div className={styles.about_company}>
+      <div></div>
+      <div></div>
+    </div>
+  );
+};
+
+export default AboutCompany;
