@@ -1,0 +1,17 @@
+.scroll_view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scroll_view div {
+  width: 10rem;
+  height: 10rem;
+}
+
+.scroll_view div img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}

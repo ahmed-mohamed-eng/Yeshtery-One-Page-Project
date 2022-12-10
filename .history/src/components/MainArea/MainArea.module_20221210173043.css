@@ -1,0 +1,10 @@
+.main_area {
+  width: 100%;
+
+  padding: 1rem 15rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}

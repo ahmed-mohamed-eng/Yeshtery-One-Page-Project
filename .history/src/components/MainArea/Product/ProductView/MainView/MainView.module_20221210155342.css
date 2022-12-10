@@ -1,0 +1,12 @@
+.main_view {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.main_view button {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

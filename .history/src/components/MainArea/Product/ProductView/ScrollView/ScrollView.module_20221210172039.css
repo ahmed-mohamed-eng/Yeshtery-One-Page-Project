@@ -1,0 +1,10 @@
+.scroll_view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scroll_view div {
+  width: 10rem;
+  height: 10rem;
+}

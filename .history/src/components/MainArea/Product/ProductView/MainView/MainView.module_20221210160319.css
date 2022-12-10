@@ -1,0 +1,38 @@
+.main_view {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  position: relative;
+
+  margin-bottom: 1rem;
+}
+
+.main_view button {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+
+  width: 3.5rem;
+  height: 3.5rem;
+
+  border-color: white;
+  border-style: solid;
+  border-radius: 1rem;
+
+  background-color: white;
+
+  padding: 0.5rem;
+}
+
+.main_view button img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.main_view > img {
+  width: 35.5rem;
+
+  object-fit: cover;
+}

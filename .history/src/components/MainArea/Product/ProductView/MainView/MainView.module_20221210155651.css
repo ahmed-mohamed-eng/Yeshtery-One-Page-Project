@@ -1,0 +1,20 @@
+.main_view {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  position: relative;
+}
+
+.main_view button {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+
+.main_view > img {
+  width: 35.5rem;
+
+  object-fit: cover;
+}

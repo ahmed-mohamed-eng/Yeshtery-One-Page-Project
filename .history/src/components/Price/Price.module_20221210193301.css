@@ -1,0 +1,27 @@
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 1rem 0rem;
+}
+
+.price div:first-child span {
+  font-size: 2rem;
+
+  font-weight: 600;
+
+  color: #542e90;
+}
+
+.price div:nth-child(2) span {
+  text-decoration: line-through;
+
+  color: #a7a9ac;
+}
+
+.price div:last-child span {
+  padding: 0.5rem 0.5rem;
+
+  background-color: #fff200;
+}

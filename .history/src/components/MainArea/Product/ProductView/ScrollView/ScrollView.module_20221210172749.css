@@ -1,0 +1,29 @@
+.scroll_view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scroll_view div {
+  width: 6rem;
+  height: 6rem;
+}
+
+.scroll_view div {
+  margin-right: 1rem;
+}
+
+.scroll_view button {
+  border: none;
+}
+
+.scroll_view button:first-child {
+  margin-right: 1rem;
+}
+
+.scroll_view div img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}

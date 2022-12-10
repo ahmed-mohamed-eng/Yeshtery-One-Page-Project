@@ -1,0 +1,15 @@
+.rating {
+  width: 65%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating div:last-child span {
+  color: #575756;
+}
+
+.rating img {
+  margin-bottom: 0rem;
+}
