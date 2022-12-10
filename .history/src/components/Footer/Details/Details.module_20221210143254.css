@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
 
-  padding: 1.5rem 0rem 0rem 0rem;
+  padding: 1rem 0rem;
 }
 
 .accepted_payments {
@@ -25,5 +25,5 @@
 }
 
 .powered_by span {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }

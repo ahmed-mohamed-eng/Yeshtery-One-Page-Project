@@ -18,7 +18,7 @@ const Details = () => {
       </div>
       <div className={styles.powered_by}>
         <span>Powered By</span>
-        <img src={nasnavLogo} alt="Powered By Nasanav" />
+        <img src="" alt="" />
       </div>
     </div>
   );

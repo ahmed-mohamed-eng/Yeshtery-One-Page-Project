@@ -35,15 +35,15 @@ const AboutCompany = () => {
             <span>/YESHTERY</span>
           </a>
           <a href="#linkedin">
-            <img src={linkedInLogo} alt="Visit our LinkedIn Account" />
+            <img src="" alt="" />
             <span>/YESHTERY</span>
           </a>
           <a href="#instagram">
-            <img src={instagramLogo} alt="We have amazing pics at Instagram" />
+            <img src="" alt="" />
             <span>/YESHTERY</span>
           </a>
           <a href="#twitter">
-            <img src={twitterLogo} alt="See our latest news at twitter" />
+            <img src="" alt="" />
             <span>/YESHTERY</span>
           </a>
         </div>

@@ -82,6 +82,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 
+
   height: 100%;
 
   flex: 1;
@@ -97,12 +98,5 @@
   margin-bottom: 0.7rem;
 }
 
-.social_media_links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.social_media_links a img {
-  margin-right: 0.5rem;
+.social_media_links {
 }

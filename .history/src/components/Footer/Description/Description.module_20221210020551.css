@@ -2,9 +2,6 @@
   display: flex;
   justify-content: space-between;
 
-  padding-bottom: 1rem;
-
   border-bottom-color: white;
   border-block-width: 1px;
-  border-bottom-style: solid;
 }

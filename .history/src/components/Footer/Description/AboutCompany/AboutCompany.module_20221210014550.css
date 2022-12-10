@@ -1,0 +1,61 @@
+.about_company {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-left: 3rem;
+}
+
+.subscribe h5 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.send_mail {
+  width: 70%;
+  height: 70%;
+
+  border-radius: 3rem;
+
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0.3rem 0.3rem;
+}
+
+.send_mail button,
+.send_mail input {
+  height: 100%;
+}
+
+.send_mail button {
+  flex: 1;
+
+  border: none;
+
+  border-radius: 1rem;
+
+  background-color: #fff200;
+}
+
+.send_mail button span {
+  color: black;
+}
+
+.send_mail input {
+  border: none;
+  outline: none;
+
+  border-radius: 1rem;
+
+  padding-left: 1rem;
+
+  color: black;
+
+  flex: 3;
+}

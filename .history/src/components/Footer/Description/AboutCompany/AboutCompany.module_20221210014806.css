@@ -34,15 +34,13 @@
 }
 
 .send_mail button {
-  cursor: pointer;
-
   flex: 1;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  padding: 0rem 1rem;
+  padding: 0rem 0.5rem;
 
   border: none;
 
@@ -65,44 +63,5 @@
 
   color: black;
 
-  flex: 4;
-}
-
-.navigation,
-.website_navigation,
-.social_media_links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.website_navigation,
-.social_media_links {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-
-  height: 100%;
-
-  flex: 1;
-}
-
-.website_navigation a,
-.social_media_links a {
-  text-decoration: none;
-}
-
-.website_navigation a:not(:last-child),
-.social_media_links a:not(:last-child) {
-  margin-bottom: 0.7rem;
-}
-
-.social_media_links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.social_media_links a img {
-  margin-right: 0.5rem;
+  flex: 3;
 }

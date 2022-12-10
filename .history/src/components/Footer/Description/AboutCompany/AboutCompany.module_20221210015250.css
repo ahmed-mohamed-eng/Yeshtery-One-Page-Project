@@ -79,30 +79,8 @@
 .website_navigation,
 .social_media_links {
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-
-  height: 100%;
-
-  flex: 1;
 }
 
-.website_navigation a,
-.social_media_links a {
-  text-decoration: none;
-}
-
-.website_navigation a:not(:last-child),
-.social_media_links a:not(:last-child) {
-  margin-bottom: 0.7rem;
-}
-
-.social_media_links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.social_media_links a img {
-  margin-right: 0.5rem;
+.website_navigation a:not(:last-child) {
+  margin-bottom: 0.5rem;
 }

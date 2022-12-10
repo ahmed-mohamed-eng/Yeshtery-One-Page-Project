@@ -1,10 +1,6 @@
 import styles from "./AboutCompany.module.css";
 
-import twitterLogo from "../../../../images/footer/twitter_logo.svg";
-import facebookLogo from "../../../../images/footer/facebook_logo.svg";
-import linkedInLogo from "../../../../images/footer/linkedin_logo.svg";
 import sendMailIcon from "../../../../images/footer/send_mail_icon.svg";
-import instagramLogo from "../../../../images/footer/instegram_logo.svg";
 
 const AboutCompany = () => {
   return (
@@ -30,22 +26,10 @@ const AboutCompany = () => {
           <a href="#Shipping And Returns">Shipping And Returns</a>
         </div>
         <div className={styles.social_media_links}>
-          <a href="#facebook">
-            <img src={facebookLogo} alt="Visit Us at Facebook" />
-            <span>/YESHTERY</span>
-          </a>
-          <a href="#linkedin">
-            <img src={linkedInLogo} alt="Visit our LinkedIn Account" />
-            <span>/YESHTERY</span>
-          </a>
-          <a href="#instagram">
-            <img src={instagramLogo} alt="We have amazing pics at Instagram" />
-            <span>/YESHTERY</span>
-          </a>
-          <a href="#twitter">
-            <img src={twitterLogo} alt="See our latest news at twitter" />
-            <span>/YESHTERY</span>
-          </a>
+          <a href="#facebook">/YESHTERY</a>
+          <a href="#linkedin">/YESHTERY</a>
+          <a href="#instagram">/YESHTERY</a>
+          <a href="#twitter">/YESHTERY</a>
         </div>
       </div>
     </div>

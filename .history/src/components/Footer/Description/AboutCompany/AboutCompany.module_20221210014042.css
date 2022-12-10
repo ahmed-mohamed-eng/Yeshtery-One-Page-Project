@@ -1,0 +1,33 @@
+.about_company {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-left: 3rem;
+}
+
+.subscribe h5 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.send_mail {
+  width: 70%;
+  height: 70%;
+
+  border-radius: 2rem;
+
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.send_mail button,
+.send_mail input {
+  /* width: 100%; */
+  height: 100%;
+}
