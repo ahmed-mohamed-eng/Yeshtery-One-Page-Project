@@ -1,0 +1,9 @@
+.product_size {
+  padding-left: 3rem;
+
+  width: 100%;
+}
+
+.product_size h5 {
+  font-size: 2rem;
+}

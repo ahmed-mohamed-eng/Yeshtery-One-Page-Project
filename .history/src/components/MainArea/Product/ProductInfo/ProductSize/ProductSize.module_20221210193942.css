@@ -1,0 +1,13 @@
+.product_size {
+  padding-left: 3rem;
+
+  width: 100%;
+}
+
+.product_size h5 {
+  font-size: 1.5rem;
+}
+
+.product_size div button {
+  border-radius: 50%;
+}

@@ -1,0 +1,22 @@
+.product_size {
+  padding-left: 3rem;
+
+  width: 100%;
+}
+
+.product_size h5 {
+  font-size: 1.5rem;
+}
+
+.product_size div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product_size div button {
+  width: 4rem;
+  height: 4rem;
+
+  border-radius: 50%;
+}

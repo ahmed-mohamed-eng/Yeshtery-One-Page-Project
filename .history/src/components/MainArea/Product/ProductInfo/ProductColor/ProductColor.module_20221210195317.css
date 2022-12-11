@@ -1,0 +1,12 @@
+.product_color {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.colors {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

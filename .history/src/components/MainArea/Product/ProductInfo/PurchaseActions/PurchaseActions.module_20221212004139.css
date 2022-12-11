@@ -1,0 +1,81 @@
+.purchase_action {
+  width: 100%;
+
+  padding-left: 3rem;
+
+  margin-top: 1rem;
+}
+
+.purchase_action h5 {
+  font-size: 1.4rem;
+
+  margin-bottom: 0.5rem;
+}
+
+.quantity {
+  width: 55%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0.5rem 0.5rem;
+
+  background-color: #f5f5f5;
+
+  border-radius: 4rem;
+
+  margin-bottom: 1rem;
+}
+
+.quantity span {
+  color: #542e90;
+}
+
+.quantity button {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #fff200;
+
+  width: 2rem;
+  height: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff200;
+}
+
+.purchase_action .action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.purchase_action .action {
+  width: 100%;
+}
+
+.purchase_action .action button {
+  flex: 1;
+
+  height: 2.5rem;
+
+  border-style: solid;
+  border-radius: 1.5rem;
+  border-color: #fff200;
+
+  background-color: #fff200;
+
+  font-weight: 700;
+}
+
+.purchase_action .action button:first-child {
+  background-color: #542e90;
+
+  color: white;
+  border-color: white;
+
+  margin-right: 1rem;
+}

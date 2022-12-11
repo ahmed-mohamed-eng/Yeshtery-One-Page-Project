@@ -1,0 +1,43 @@
+.product_size {
+  padding-left: 3rem;
+
+  width: 100%;
+
+  margin-bottom: 1.5rem;
+}
+
+.product_size h5 {
+  font-size: 1.5rem;
+}
+
+.product_size div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product_size div button {
+  width: 5rem;
+  height: 5rem;
+
+  background-color: white;
+
+  border: none;
+
+  border-radius: 50%;
+}
+
+.product_size div button:active,
+.product_size div button:focus {
+  background-color: #ececec;
+}
+
+.product_size div button:active span,
+.product_size div button:focus span {
+  color: black;
+}
+
+.product_size div button span {
+  font-weight: 600;
+  color: #542e90;
+}
