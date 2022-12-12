@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import ProductContext from "../utils/ProductContext";
 
 import Footer from "./Footer";

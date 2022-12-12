@@ -41,7 +41,7 @@ const PurchaseActions = () => {
         </button>
       </div>
       <div className={styles.action}>
-        <button onClick={addToCart}>Add To Cart</button>
+        <button>Add To Cart</button>
         <button>Pickup From Store</button>
       </div>
     </div>

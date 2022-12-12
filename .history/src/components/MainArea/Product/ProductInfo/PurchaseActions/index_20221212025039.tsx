@@ -8,7 +8,8 @@ import plusIcon from "../../../../../images/main_area/plus_icon.svg";
 import minusIcon from "../../../../../images/main_area/minus_icon.svg";
 
 const PurchaseActions = () => {
-  const { productNumber, setProductNumber } = useContext(ProductContext);
+
+  const {productNumber, setProductNumber} = useContext(ProductContext)
 
   const [quantity, setQuantity] = useState(1);
 
@@ -25,8 +26,8 @@ const PurchaseActions = () => {
   };
 
   const addToCart = () => {
-    setProductNumber(productNumber + quantity);
-  };
+
+  }
 
   return (
     <div className={styles.purchase_action}>
@@ -41,7 +42,7 @@ const PurchaseActions = () => {
         </button>
       </div>
       <div className={styles.action}>
-        <button onClick={addToCart}>Add To Cart</button>
+        <button>Add To Cart</button>
         <button>Pickup From Store</button>
       </div>
     </div>

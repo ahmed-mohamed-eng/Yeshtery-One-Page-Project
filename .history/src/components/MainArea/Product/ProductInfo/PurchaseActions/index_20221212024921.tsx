@@ -1,6 +1,4 @@
-import { useState, useContext } from "react";
-
-import ProductContext from "../../../../../utils/ProductContext";
+import { useState } from "react";
 
 import styles from "./PurchaseActions.module.css";
 
@@ -8,8 +6,6 @@ import plusIcon from "../../../../../images/main_area/plus_icon.svg";
 import minusIcon from "../../../../../images/main_area/minus_icon.svg";
 
 const PurchaseActions = () => {
-  const { productNumber, setProductNumber } = useContext(ProductContext);
-
   const [quantity, setQuantity] = useState(1);
 
   const addOneMore = () => {
@@ -22,10 +18,6 @@ const PurchaseActions = () => {
     } else {
       setQuantity(0);
     }
-  };
-
-  const addToCart = () => {
-    setProductNumber(productNumber + quantity);
   };
 
   return (
@@ -41,7 +33,7 @@ const PurchaseActions = () => {
         </button>
       </div>
       <div className={styles.action}>
-        <button onClick={addToCart}>Add To Cart</button>
+        <button>Add To Cart</button>
         <button>Pickup From Store</button>
       </div>
     </div>
