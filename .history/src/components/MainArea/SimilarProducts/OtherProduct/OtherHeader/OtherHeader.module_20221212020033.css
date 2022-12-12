@@ -1,0 +1,11 @@
+.other_header .main_image {
+  position: relative;
+}
+
+.other_header .main_image span {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+
+  background-color: white;
+}

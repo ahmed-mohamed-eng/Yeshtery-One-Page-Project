@@ -1,0 +1,22 @@
+.similar_header {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.similar_header h3 {
+  font-size: 2rem;
+
+  color: #542e90;
+
+  margin-bottom: 0.3rem;
+}
+
+.similar_header p {
+  color: #575756;
+
+  font-size: 1.3rem;
+}

@@ -1,0 +1,17 @@
+.other_footer {
+  width: 100%;
+}
+
+.other_footer .footer_rating {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.other_footer p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

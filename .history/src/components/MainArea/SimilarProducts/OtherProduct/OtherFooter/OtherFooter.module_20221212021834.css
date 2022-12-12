@@ -1,0 +1,5 @@
+.other_footer .footer_rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

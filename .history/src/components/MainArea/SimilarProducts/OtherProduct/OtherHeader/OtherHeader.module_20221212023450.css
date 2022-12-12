@@ -1,0 +1,70 @@
+.other_header .main_image {
+  position: relative;
+
+  margin-bottom: 0.5rem;
+}
+
+.other_header .main_image span {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  padding: 0.4rem;
+
+  border-radius: 0.5rem;
+
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+
+  background-color: white;
+}
+
+.other_header .main_image span img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.other_header h4 {
+  margin-bottom: 0.5rem;
+  padding: 0rem 0.5rem;
+}
+
+.other_header .price_tag > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0rem 1.2rem;
+}
+
+.other_header .price_tag div:first-child > span {
+  color: #542e90;
+
+  font-size: 1.4rem;
+
+  font-weight: 500;
+}
+
+.other_header .price_tag div:first-child > div {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.other_header .price_tag div:first-child > div span:first-child {
+  margin-right: 1rem;
+}
+
+.other_header .price_tag div:first-child > div span:last-child {
+  background-color: #fff200;
+
+  font-weight: 600;
+
+  padding: 0.1rem 0.2rem;
+}
+
+.other_header .price_tag div:first-child > div span:first-child {
+  color: #a7a9ac;
+  text-decoration: line-through;
+}

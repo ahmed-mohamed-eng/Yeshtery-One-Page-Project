@@ -1,0 +1,11 @@
+.similar_product {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
